@@ -5,11 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Noto Sans Mono:pixelsize=15:antialias=true:autohint=true";
-static int borderpx = 2;
+static char *font = "monospace:pixelsize=20:antialias=true:autohint=true";
+static int borderpx = 4;
 
-//Alpha for alpha path
-float alpha = 0.7;
+float alpha = 0.6;
 
 /*
  * What program is execed by st depends of these precedence rules:
